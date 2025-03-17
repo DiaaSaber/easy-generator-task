@@ -22,7 +22,6 @@ function SignUpPage() {
   const navigate = useNavigate();
   const dispatch = useAppDispatch();
 
-  // Pull these from Redux
   const { loading, error } = useAppSelector((state) => state.auth);
 
   return (
